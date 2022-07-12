@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #c5a16f;
+    font-family: 'Times New Roman';
+}
+
+.container {
+    background-color: #a38055;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px #ffd09b;
+    ;
+}
+
+.title{
+    padding: 10px 5px;
+    border-radius: 5px 5px 0 0;
+    background-color: #8F6F43;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 1000;
+}
+
+.form-container {
+    padding: 15px;
+}
+
+.form_grup_left {
+    margin-right: 20px;
+}
+
+.form_input {
+    margin-bottom: 10px;
+}
+
+.form_grup {
+    display: flex;
+    justify-content: space-between;
+}
+.label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#totalbayar {
+    background-color: none;
+}
+
+.input {
+    border: 1px solid #b6b6b6;
+    border-radius: 5px;
+    height: 25px;
+    width: 255px;
+    padding: 3px 10px;
+}
+
+.button-control {
+    padding: 10px 5px;
+    text-align: right;
+}
+
+button {
+    background-color: none;
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+
+button svg {
+    transform: translate(-2px, 3px);
+}
+
+button[type=submit] {
+    cursor: pointer;
+    color: #21c921;
+    border: 1px solid #18c018;
+}
+
+button[type=submit]:hover{
+    background-color: #058805;
+    color: rgb(255, 255, 255);
+}
+
+button[type=reset] {
+    cursor: pointer;
+    color: #b60f0f;
+    border: 1px solid #b60f0f;
+}
+
+button[type=reset]:hover{
+    background-color: #b60f0f;
+    color: rgb(255, 255, 255);
+}
